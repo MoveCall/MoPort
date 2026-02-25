@@ -23,7 +23,14 @@ A lightweight serial port monitoring tool for embedded developers (ESP32, Arduin
 
 ## Installation
 
-Download [MoPort-v0.0.6.dmg](https://github.com/MoveCall/MoPort/releases/download/v0.0.6/MoPort-v0.0.6.dmg) and drag to Applications folder.
+1. Download [MoPort-v0.0.6.dmg](https://github.com/MoveCall/MoPort/releases/download/v0.0.6/MoPort-v0.0.6.dmg)
+2. Open the DMG and drag MoPort.app to Applications
+3. Right-click MoPort.app and select "Open"
+
+**Note**: On first launch, macOS may show a security warning. This is because the app is not signed with an Apple Developer certificate. To allow it to run:
+
+- Go to **System Settings → Privacy & Security**
+- Find "MoPort" in the list and click "Open Anyway"
 
 **Requirements**: macOS 13.0+, Apple Silicon
 

@@ -23,7 +23,14 @@ MoPort 是一款为嵌入式开发者（ESP32、Arduino 等）设计的 macOS �
 
 ## 安装
 
-下载 [MoPort-v0.0.6.dmg](https://github.com/MoveCall/MoPort/releases/download/v0.0.6/MoPort-v0.0.6.dmg)，拖拽到 Applications 文件夹。
+1. 下载 [MoPort-v0.0.6.dmg](https://github.com/MoveCall/MoPort/releases/download/v0.0.6/MoPort-v0.0.6.dmg)
+2. 打开 DMG 并将 MoPort.app 拖到 Applications 文件夹
+3. 右键点击 MoPort.app，选择"打开"
+
+**注意**: 首次打开时 macOS 可能会提示安全警告。这是因为应用未使用 Apple Developer 证书签名。如需运行：
+
+- 进入 **系统设置 → 隐私与安全性**
+- 在"已阻止使用 MoPort"处点击"仍要打开"
 
 **系统要求**: macOS 13.0+, Apple Silicon
 
@@ -41,7 +48,7 @@ make clean  # 清理
 
 ## 作者
 
-MoveCall - [GitHub](https://github.com/MoveCall)
+MoveCall - [GitHub](https://github.com/movecall)
 
 ## 许可证
 
