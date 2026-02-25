@@ -208,9 +208,16 @@ class MenuBarController {
         let alert = NSAlert()
         alert.messageText = L("launchAtLogin")
         alert.informativeText = enabled
-            ? "请在「系统设置 → 通用 → 登录项」中添加 MoPort"
-            : "请在「系统设置 → 通用 → 登录项」中移除 MoPort"
+            ? L("loginItemAddHint")
+            : L("loginItemRemoveHint")
         alert.alertStyle = .informational
+
+        // 设置自定义图标
+        if let iconPath = Bundle.main.path(forResource: "AppIcon", ofType: "icns"),
+           let icon = NSImage(contentsOfFile: iconPath) {
+            alert.icon = icon
+        }
+
         alert.addButton(withTitle: L("ok"))
         alert.runModal()
     }

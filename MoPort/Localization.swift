@@ -78,7 +78,9 @@ private let englishStrings: [String: String] = [
     "aboutInfo": "A lightweight tool for embedded developers.\n\n© 2026 MoPort Project\nby MoveCall",
     "version": "Version",
     "preferences": "Preferences",
-    "ok": "OK"
+    "ok": "OK",
+    "loginItemAddHint": "Please add MoPort in System Settings → General → Login Items",
+    "loginItemRemoveHint": "Please remove MoPort from System Settings → General → Login Items"
 ]
 
 private let chineseStrings: [String: String] = [
@@ -99,7 +101,9 @@ private let chineseStrings: [String: String] = [
     "aboutInfo": "一款轻量级嵌入式开发辅助工具。\n\n© 2026 MoPort 项目\n作者: MoveCall",
     "version": "版本",
     "preferences": "偏好设置",
-    "ok": "好"
+    "ok": "好",
+    "loginItemAddHint": "请在「系统设置 → 通用 → 登录项」中添加 MoPort",
+    "loginItemRemoveHint": "请在「系统设置 → 通用 → 登录项」中移除 MoPort"
 ]
 
 // MARK: - 便捷访问
