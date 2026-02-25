@@ -1,0 +1,18 @@
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Build
+build/
+*.dmg
+
+# macOS
+.DS_Store
+
+# Swift
+*.swp
+*.swo
+
+# Temporary
+*~
